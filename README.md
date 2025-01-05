@@ -33,42 +33,6 @@ This application uses Mongoose for schema definitions and database interaction.
 
 ---
 
-## Installation & Setup
-
-### Prerequisites
-Ensure you have the following installed on your machine:
-- **Node.js** (v14 or higher)
-- **MongoDB** (local or remote instance)
-
-### Steps to Run
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd classroom-management
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start MongoDB**:
-   Ensure MongoDB is running on your system or update the connection string in `config/db.js`.
-
-4. **Run the application**:
-   ```bash
-   npm start
-   ```
-   This will start the server on `http://localhost:3000`.
-
-5. **Run in development mode** (with hot-reloading):
-   ```bash
-   npm run dev
-   ```
-
----
-
 ## API Endpoints
 
 ### Classes
